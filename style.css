@@ -1,0 +1,55 @@
+html,body {
+	height: 100%;
+}
+
+
+.jumbotron {
+	background-image: url("img/massage-2.jpg");
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	color: white;
+	margin-top: 50px;
+}
+
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+
+h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 48px;	
+	text-align: center;
+}
+
+p {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 24px;
+text-align: justify;
+}
+
+.btn {
+	margin-top: 50px;
+	width: 150px;
+	background-color: yellow;
+	 color: black;
+	 font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #ebebeb;
+  color: black;
+}
+
+.navbar {
+	font-size: 18px;
+}
+.masaz {
+	color: red;
+}
+
+.dropdown-menu{
+	font-size: 18px;
+}
