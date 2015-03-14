@@ -5,6 +5,7 @@ html,body {
 
 .jumbotron {
 	background-image: url("img/massage-2.jpg");
+	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
 	background-size: 100%;
@@ -15,6 +16,7 @@ html,body {
 
 h1 {
 	font-family: 'Open Sans Condensed', sans-serif;
+
 	
 }
 
@@ -53,3 +55,13 @@ text-align: justify;
 .dropdown-menu{
 	font-size: 18px;
 }
+
+.klawisz > .btn {
+		width: 93%;
+	}
+.thumbnail {
+	text-align: center;
+}
+
+
+	
