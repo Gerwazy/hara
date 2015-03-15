@@ -8,16 +8,30 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function() {
+            var hash = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 500);
+            return false;
+        });
+    });
+    </script>
+
+
+
+   
   </head>
 
   <body>
 
-
-
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 <div class="container">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#zabiegi">Zabiegi</a></li>
         <li><a href="#cennik">Cennik</a></li>
         <li><a href="#">Galeria</a></li>
@@ -28,13 +42,13 @@
 
 
 
- <div class="jumbotron">
+ <div class="jumbotron" id="home">
    <div class="container">
      <h1>Gabinet Rehabilitacyjny</h1>
      <h1>Bezbólowej Terapii Kręgosłupa</h1>
      <h1>Schorzeń Narządu Ruchu i Walki z Bólem</h1>
      
-    <p><a class="btn btn-primary btn-lg" href="ter_man" role="button">Zabiegi</a></p>
+    <p><a class="btn btn-primary btn-lg" href="#zabiegi" role="button">Zabiegi</a></p>
   </div>
  </div>
 
@@ -381,6 +395,7 @@
 </div>
 </div>
 
+
 <div id="cennik">
 <h2>CENNIK</h2>
 <hr />
@@ -412,9 +427,6 @@
     </tbody>
   </table> </th></tr>
   </div>
-
-
-
 
 
 
