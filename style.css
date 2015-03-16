@@ -66,7 +66,7 @@ text-align: justify;
 }
 
 .klawisz > .btn {
-		width: 93%;
+		width: 100%;
 	}
 .thumbnail {
 	text-align: center;
@@ -79,14 +79,18 @@ h4 {
 
 .table {
 	width: 60%;
+	table-layout: auto;
 	text-align: justify;
 	margin-left: 20%;
 	margin-right: 20%;
+	font-size: 18px;
+
 
 
 }
-h6	{
+h5	{
 	text-align: center;
+	color: white;
 }
 
 .form-control {
@@ -94,14 +98,30 @@ margin-bottom: 30px;
 }
 
 #wyslij {
-	margin-bottom: 30px;
+
+	height: 35px;
 	width: 150px;
-	background-color: yellow;
+	background-color: white;
 	color: black;
 	font-weight: bold;
 	text-align: center;
-	position: relative;
-	left: 63%;
+	border-color: white;
+	
+
+}
+#stopka {
+	background-color: black;
+	margin-bottom: 0px;
+
+}
+.jumbotron {
+	margin-bottom: 0px;
 }
 
+#cena {
+	background: url("img/b1.jpg");
+	
+	color: white;
 
+
+}
