@@ -93,3 +93,15 @@ h6	{
 margin-bottom: 30px;
 }
 
+#wyslij {
+	margin-bottom: 30px;
+	width: 150px;
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	position: relative;
+	left: 63%;
+}
+
+
