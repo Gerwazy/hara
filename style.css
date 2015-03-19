@@ -5,6 +5,7 @@ html,body {
 
 #home {
 	background-image: url("img/massage-2.jpg");
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	height: 100%;
 	width: 100%;
@@ -23,7 +24,18 @@ html,body {
 
 
 h1 {
-	font-family: 'Open Sans Condensed', sans-serif;
+	
+	
+font-family: 'Poiret One', cursive;
+font-size: 450%!important;
+font-style: normal;
+font-weight: 400;
+text-shadow: none;
+text-decoration: none;
+text-transform: none;
+letter-spacing: -0.032em;
+word-spacing: 0em;
+line-height: 1.22;
 
 	
 }
@@ -61,9 +73,6 @@ text-align: justify;
 	color: red;
 }
 
-.dropdown-menu{
-	font-size: 18px;
-}
 
 .klawisz > .btn {
 		width: 100%;
@@ -120,7 +129,7 @@ margin-bottom: 30px;
 
 #cena {
 	background: url("img/b1.jpg");
-	
+	background-attachment: fixed;
 	color: white;
 
 
