@@ -7,27 +7,14 @@
     <title>HARA</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    
-<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Syncopate:700' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('a[href^="#"]').click(function() {
-            var hash = $(this).attr('href');
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 500);
-            return false;
-        });
-    });
-    </script>
-
-
-
    
   </head>
 
   <body>
+
 
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 <div class="container">
@@ -44,9 +31,11 @@
 
  <div class="jumbotron" id="home">
    <div class="container">
-     <h1>Gabinet Rehabilitacyjny</h1>
-     <h1>Bezbólowej Terapii Kręgosłupa</h1>
-     <h1>Schorzeń Narządu Ruchu i Walki z Bólem</h1>
+     <h1>
+     <strong>hara</strong>
+     </h1>
+     <h3>Gabinet Rehabilitacyjny Bezbólowej Terapii Kręgosłupa</h3>
+     <h3>Schorzeń Narządu Ruchu i Walki z Bólem</h3>
      
     <p><a class="btn btn-primary btn-lg" href="#zabiegi" role="button">Zabiegi</a></p>
   </div>
@@ -442,12 +431,10 @@
 <h4>tel. 603-705-005</h4>
 </div>
 
-
    <form id="contact" method="post" class="form" role="form">
-    
     <div class="row">
       <div class="col-md-3 col-md-offset-3">
-        <input class="form-control" id="name" name="name" placeholder="Imię i Nazwisko" type="text" required autofocus />
+        <input class="form-control" id="name" name="name" placeholder="Imię i Nazwisko" type="text" required  />
       </div>
       <div class="col-md-3">
         <input class="form-control" id="email" name="email" placeholder="Email" type="email" required /> 
@@ -461,7 +448,8 @@
   <div class="col-md-offset-3">
       <button id="wyslij" class="btn-primary" type="submit">Wyślij</button>
   </div>
-</form> 
+  </form> 
+
 </div>
 </div>
 
@@ -480,7 +468,17 @@
 
 
 
-
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('a[href^="#"]').click(function() {
+            var hash = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 500);
+            return false;
+        });
+    });
+    </script>
 
 
 <script type="text/javascript">
@@ -495,4 +493,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
+
 </html>

@@ -24,20 +24,9 @@ html,body {
 
 
 h1 {
-	
-	
-font-family: 'Poiret One', cursive;
-font-size: 450%!important;
-font-style: normal;
-font-weight: 400;
-text-shadow: none;
-text-decoration: none;
-text-transform: none;
-letter-spacing: -0.032em;
-word-spacing: 0em;
-line-height: 1.22;
-
-	
+	font-size: 900%!important;
+	font-family: 'Syncopate', sans-serif;
+		
 }
 
 h2 {
@@ -46,10 +35,14 @@ h2 {
 	text-align: center;
 	padding-top: 50px;
 }
+h3 {
+	padding: 0px;
+	margin: 10px;
+}
 
 p {
 font-family: 'Open Sans Condensed', sans-serif;
-font-size: 22px;
+font-size: 20px;
 text-align: justify;
 }
 
