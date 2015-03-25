@@ -11,7 +11,7 @@ html,body {
 	width: 100%;
 	background-size: 100%;
 	color: white;
-	margin-top: 50px;
+	
 }
 
 #mapa {
@@ -26,6 +26,7 @@ html,body {
 h1 {
 	font-size: 900%!important;
 	font-family: 'Syncopate', sans-serif;
+	margin-top: 50px;
 		
 }
 
